@@ -1,0 +1,22 @@
+server:
+  port: 9987
+# redis
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+    jedis:
+      pool:
+        max-idle: 8
+        max-wait: -1
+        min-idle: 0
+        max-active: 100
+    timeout: 0
+    database: 10
+  # mysql
+  datasource:
+    url: jdbc:mysql://localhost:3306/shop?serverTimezone=GMT%2B8&autoR&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: root
+    password: admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
