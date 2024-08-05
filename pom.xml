@@ -48,7 +48,7 @@
         <dependency>
             <groupId>org.redisson</groupId>
             <artifactId>redisson</artifactId>
-            <version>3.6.5</version>
+            <version>3.22.0</version>
         </dependency>
         <!--lombok 本文用到@Slf4j注解, 也可不引用, 自定义log即可-->
         <dependency>
